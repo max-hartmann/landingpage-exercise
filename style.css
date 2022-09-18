@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: grey;
+}
+
+.nav-container {
+    justify-content: space-between;
+    flex: 1;
+    padding: 1rem 0;
+}
+
+.header-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.intro {
+    background: grey;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.intro-image img {
+    height: 400px;
+}
